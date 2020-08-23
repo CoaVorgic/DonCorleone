@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin: 0;
+}
+
+/* index.php */
+
+.custom-navbar .navbar-nav.navbar-nav-first {
+    margin-left: 7rem;
+}
+
+.custom-navbar .nav li a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom-navbar .nav li a.section-btn {
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.section-btn:hover {
+    background-color: red;
+    color: red;
+}
+
+.custom-navbar .nav li a.section-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+#cf-message {
+    resize: none;
+}
+
+/* rezervacija.php */ 
+
+.reservation {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    background: radial-gradient(circle, rgba(251,104,63,1) 0%, rgba(247,222,53,1) 100%);
+}
+
+.reservation-form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 25px 0;
+}
+
+.reservation-heading {
+    padding-bottom: 15px;
+    font-size : 24px;
+}
+
+.reservation-subheading {
+    padding-bottom: 15px;
+    font-size : 16px;
+}
+
+.reservation-input-block {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.reservation-input-text {
+    width: 400px;
+    height: 30px;
+    padding: 0 5px;
+    font-weight: 700;
+}
+
+.reservation-input-date {
+    width: 100%;
+    height: 30px;
+}
+
+.required {
+    color: lime;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.reservation-submit-btn {
+    width: 400px;
+    height: 40px;
+    background-color: crimson;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid blue;
+    text-transform: uppercase;
+}
+
+.reservation-comment {
+    width: 400px;
+    height: 200px;
+    resize: none;
+}
+
+/* proizvodi_ispravljeno.php */
+
+.products-header-content {
+    background-color: orange;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.products-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+}
+
+.products-header-navigation ul {
+    display: inline-block;
+}
+
+.products-header-navigation ul li {
+    display: inline;
+    margin-left: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.products-header-navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.products-header-navigation ul li a:hover {
+    color: #444;
+}
+
+.products-content-section {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.products-content-section-title {
+    font-weight: bold;
+}
+.products-content-section-card {
+    border: 2px solid orange; 
+    border-radius: 5px; 
+    margin-bottom: 5px;
+}
+
+.products-content-section-card-img .img-responsive {
+    width: 200px;
+    height: auto;
+}
+
+.products-content-section-card-description h3{
+    font-weight: bold;
+}
+
+.products-content-section-card-price {
+    font-weight: bold; 
+    color: green;
+}
+
+.products-welcome-name img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* dostava.php */
+
+.booking {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(255,188,0,1) 50%, rgba(255,59,59,1) 100%);
+}
+
+.booking form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.booking-title {
+    padding-bottom: 18px;
+    font-size : 24px;
+}
+
+.booking-subtitle {
+    padding-bottom: 18px;
+    font-size : 18px;
+}
+
+.booking-choice {
+    padding-bottom: 18px;
+}
+
+.booking-choice textarea {
+    height: 150px;
+    resize: none;
+}
+
+.booking-choice input[type=submit] {
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+}
+
+.booking-required {
+    color: #007bff;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.booking-food-amount {
+    width: 250px;
+}
+
+.booking-input {
+    width: 100%;
+}
+
+/* addprod.php */
+
+.insert-product {
+    border: 1px solid #222;
+}
+
+.insert-product-section {
+    background-color: orange; 
+    padding: 10px;
+}
+
+.insert-product-section ul {
+    display: inline;
+}
+
+.insert-product-section ul li{
+    display: inline;
+    margin-left: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+.insert-product-section ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.insert-product-section ul li a:hover{
+    color: #444;
+}
+
+.insert-product-section-title {
+    display: inline;
+}
+
+.insert-product-section-form {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* admin.php */
+
+.admin {
+    min-width: 100%;
+    min-height: 100vh;
+    border-radius: 5px; 
+    background-color: royalblue; 
+    margin: 0 auto;
+    text-align: center; 
+    padding: 10px;
+    overflow: hidden;
+}
+
+.admin h1 {
+    color: white;
+}
+
+.admin-form label {
+    font-size: 24px;
+    margin: 5px 15px;
+    color: white;
+}
+
+.admin-form input[type=text], .admin-form input[type=password] {
+    height: 30px;
+    padding: 5px;
+}
+
+.admin-login-btn {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+}
+
+.admin-form input[type=submit]:hover {
+    background: white;
+    color: royalblue;
+    font-weight: bold;
+    transition: 0.15s ease-in-out;
+}
+
+.adminpage-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.adminpage-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 3px 10px;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+#delete-btn {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid red;
+    font-size: 24px;
+    color: white;
+    background: black;
+    letter-spacing: 1px;
+}
+
+.col-sm-1 .delete-check {
+    transform: scale(2);
+    margin: 25px 10px;
+}
+
+.admin-tr {
+    display: table-cell;
+}
+
+.admin-td {
+    padding: 5px 15px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#admin-booking, #admin-reservation, #add-products-btn {
+    color: #fff;
+    background: #007bff;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.admin-action {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.input-img {
+    margin-left: 50%;
+    transform: translateX(-40%);
+}
+
+.add-products-input {
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    padding: 10px;
+    color: #007bff;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 450px){
+    .custom-navbar .navbar-nav.navbar-nav-first {
+        margin-left: 0;
+    }
+}
+

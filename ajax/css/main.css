@@ -1,0 +1,32 @@
+/* ajax */
+
+body {
+    background-color: orange;
+}
+
+.container-table {
+    border: 5px outset red;
+    background-color: #ffa51f;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-table {
+    width: 100%;
+}
+
+.getBack {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: #007bff;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.getBack a {
+    color: #fff;
+    font-size: 20px;
+}
