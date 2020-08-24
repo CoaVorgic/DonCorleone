@@ -37,7 +37,7 @@ if($food == "" || $description == "" || $price == "" || $image == "") {
 }
 
 else {
-    $insert = "INSERT INTO menu VALUES ('', '$food', '$description', '$price', '$image');";
+    $insert = "INSERT INTO menu (name, description, price, picture) VALUES ('$food', '$description', '$price', '$image');";
     $res = mysqli_query($connection, $insert) or die(mysqli_error($connection));
     move_uploaded_file($_FILES['image']['tmp_name'], $target);
 

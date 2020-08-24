@@ -35,13 +35,13 @@
                 <a class="nav-link" href="index.php">Početna</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="proizvodi.php">Proizvodi</a>
+                <a class="nav-link" href="#">Proizvodi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="addprod.php">Dodaj novi proizvod</a>
+                <a class="nav-link" href="#">Dodaj novi proizvod</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="admin.php">Admin stranica</a>
+                <a class="nav-link" href="#">Admin stranica</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="rezervacija.php">Rezervacija</a>
